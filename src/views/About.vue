@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container p-5 mt-5">
+    <h1>Hacknoid es...</h1>
   </div>
 </template>

@@ -1,12 +1,10 @@
-import { createStore } from 'vuex'
-
+import { createStore } from "vuex";
+import getHeaders from "./get-headers";
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    getHeaders,
+  },
+  state: {},
+  mutations: {},
+  actions: {},
+});
